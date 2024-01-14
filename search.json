@@ -4,6 +4,286 @@
     "href": "index.html",
     "title": "FAQ",
     "section": "",
-    "text": "FAQ 정리예정입니다."
+    "text": "아카라라이프 is Smart Life."
+  },
+  {
+    "objectID": "lighting.html#스마트-조명",
+    "href": "lighting.html#스마트-조명",
+    "title": "1  스마트 조명 | 플러그 | 릴레이",
+    "section": "1.1 스마트 조명",
+    "text": "1.1 스마트 조명\n\n1.1.1 설치\n\n\n1.1.2 사용법\n\n\n1.1.3 문제\n\n1.1.3.1 2구 조명스위치 (중성선 불필요)\n\n1.1.3.1.1 Q: 집 모든 전등기구에 해당 스위치를 사용하고 있습니다. 그런데 오늘 아침 해당 스위치를 사용하고 있는 주방등을 켰을 때, ’팡’하는 소리와 함께 스위치가 작동하고 있지 않습니다. 연결된 양쪽 전등이 모두 불능인 것 봐서 해당 스위치에 문제가 생긴것 같습니다.\nA: 2구 조명스위치의 최대 권장사용규격은 200W입니다. 2구 모두 포함하여 200W인데 지금 댁내에 사용하시는 조명이 해당 권장 사용규격을 넘어간 상황일 것으로 추측됩니다. 현재 조명 스위치을 눌러도 파란색 표시등이 깜빡이지 않고 있다면, 스위치 고장으로 여겨집니다.\n\n\n\n1.1.3.2"
+  },
+  {
+    "objectID": "lighting.html#스마트-플러그",
+    "href": "lighting.html#스마트-플러그",
+    "title": "1  스마트 조명 | 플러그 | 릴레이",
+    "section": "1.2 스마트 플러그",
+    "text": "1.2 스마트 플러그"
+  },
+  {
+    "objectID": "lighting.html#스마트-릴레이",
+    "href": "lighting.html#스마트-릴레이",
+    "title": "1  스마트 조명 | 플러그 | 릴레이",
+    "section": "1.3 스마트 릴레이",
+    "text": "1.3 스마트 릴레이"
+  },
+  {
+    "objectID": "hub_m2_tips.html",
+    "href": "hub_m2_tips.html",
+    "title": "사용팁",
+    "section": "",
+    "text": "M2 사용팁"
+  },
+  {
+    "objectID": "hub_m2_tips.html#m2-사용팁",
+    "href": "hub_m2_tips.html#m2-사용팁",
+    "title": "사용팁",
+    "section": "M2 사용팁",
+    "text": "M2 사용팁"
+  },
+  {
+    "objectID": "hub_m2_tips.html#section",
+    "href": "hub_m2_tips.html#section",
+    "title": "1  사용팁",
+    "section": "1.1 ",
+    "text": "1.1"
+  },
+  {
+    "objectID": "g2h_tips.html#설치",
+    "href": "g2h_tips.html#설치",
+    "title": "3  홈카메라 허브 G2H/G2H Pro",
+    "section": "3.1 설치",
+    "text": "3.1 설치\nG2H/G2H Pro 설치 매뉴얼"
+  },
+  {
+    "objectID": "g2h_tips.html#사용팁",
+    "href": "g2h_tips.html#사용팁",
+    "title": "3  홈카메라 허브 G2H/G2H Pro",
+    "section": "3.2 사용팁",
+    "text": "3.2 사용팁"
+  },
+  {
+    "objectID": "g2h_tips.html#문제해결",
+    "href": "g2h_tips.html#문제해결",
+    "title": "3  홈카메라 허브 G2H/G2H Pro",
+    "section": "3.5 문제해결",
+    "text": "3.5 문제해결"
+  },
+  {
+    "objectID": "g2h_tips.html#설치-1",
+    "href": "g2h_tips.html#설치-1",
+    "title": "3  홈카메라 허브 G2H/G2H Pro",
+    "section": "3.2 설치",
+    "text": "3.2 설치\n미니스위치 설치"
+  },
+  {
+    "objectID": "g2h_tips.html#troubleshoot",
+    "href": "g2h_tips.html#troubleshoot",
+    "title": "3  홈카메라 허브 G2H/G2H Pro",
+    "section": "3.3 Troubleshoot",
+    "text": "3.3 Troubleshoot"
+  },
+  {
+    "objectID": "g2h_tips.html#사용팁-1",
+    "href": "g2h_tips.html#사용팁-1",
+    "title": "3  홈카메라 허브 G2H/G2H Pro",
+    "section": "3.4 사용팁",
+    "text": "3.4 사용팁\n질문 1: G2H Pro를 사용중인데, iCloud 저장을 어떻게 설정하나요?\n답변 1:\niCloud를 통한 영상 저장의 경우, 다음과 같은 구성이 필요합니다.\n\n애플 홈 허브(애플 TV, 홈팟) + iCloud 구독\n\n추가로 아래의 설정이 필요합니다.\n\n애플홈 앱의 G2H Pro 스트리밍 화명 상단의 [설정] 버튼 -&gt; [녹화 옵션] -&gt; 스트리밍 및 녹화 항목을 [스트리밍 및 녹화 허용]으로 설정해 주세요.\n해당 설정후 G2H Pro 스트리밍 화면에 타임라인이 노출되며 움직임 감지시 영상이 저장되는 것을 확인 하실 수 있습니다."
+  },
+  {
+    "objectID": "motion_tips.html#설치",
+    "href": "motion_tips.html#설치",
+    "title": "7  모션 센서 T1",
+    "section": "7.1 설치",
+    "text": "7.1 설치\nhttps://aqara-docs.github.io/manual/motion.html"
+  },
+  {
+    "objectID": "motion_tips.html#사용팁",
+    "href": "motion_tips.html#사용팁",
+    "title": "7  모션 센서 T1",
+    "section": "7.2 사용팁",
+    "text": "7.2 사용팁"
+  },
+  {
+    "objectID": "motion_tips.html#troubleshoot",
+    "href": "motion_tips.html#troubleshoot",
+    "title": "7  모션 센서 T1",
+    "section": "7.3 Troubleshoot",
+    "text": "7.3 Troubleshoot"
+  },
+  {
+    "objectID": "door_tips.html#설치",
+    "href": "door_tips.html#설치",
+    "title": "8  열림감지 센서 T1",
+    "section": "8.1 설치",
+    "text": "8.1 설치\nhttps://aqara-docs.github.io/manual/door.html"
+  },
+  {
+    "objectID": "door_tips.html#사용팁",
+    "href": "door_tips.html#사용팁",
+    "title": "8  열림감지 센서 T1",
+    "section": "8.2 사용팁",
+    "text": "8.2 사용팁"
+  },
+  {
+    "objectID": "door_tips.html#troubleshoot",
+    "href": "door_tips.html#troubleshoot",
+    "title": "8  열림감지 센서 T1",
+    "section": "8.3 Troubleshoot",
+    "text": "8.3 Troubleshoot"
+  },
+  {
+    "objectID": "temperature_tips.html#설치",
+    "href": "temperature_tips.html#설치",
+    "title": "9  온습도 센서 T1",
+    "section": "9.1 설치",
+    "text": "9.1 설치\nhttps://aqara-docs.github.io/manual/temperature.html"
+  },
+  {
+    "objectID": "temperature_tips.html#사용팁",
+    "href": "temperature_tips.html#사용팁",
+    "title": "9  온습도 센서 T1",
+    "section": "9.2 사용팁",
+    "text": "9.2 사용팁"
+  },
+  {
+    "objectID": "temperature_tips.html#troubleshoot",
+    "href": "temperature_tips.html#troubleshoot",
+    "title": "9  온습도 센서 T1",
+    "section": "9.3 Troubleshoot",
+    "text": "9.3 Troubleshoot"
+  },
+  {
+    "objectID": "illuminance_tips.html#설치",
+    "href": "illuminance_tips.html#설치",
+    "title": "10  조도 센서 T1",
+    "section": "10.1 설치",
+    "text": "10.1 설치\nhttps://aqara-docs.github.io/manual/illuminance.html"
+  },
+  {
+    "objectID": "illuminance_tips.html#사용팁",
+    "href": "illuminance_tips.html#사용팁",
+    "title": "10  조도 센서 T1",
+    "section": "10.2 사용팁",
+    "text": "10.2 사용팁"
+  },
+  {
+    "objectID": "illuminance_tips.html#troubleshoot",
+    "href": "illuminance_tips.html#troubleshoot",
+    "title": "10  조도 센서 T1",
+    "section": "10.3 Troubleshoot",
+    "text": "10.3 Troubleshoot"
+  },
+  {
+    "objectID": "water_leakage_tips.html#설치",
+    "href": "water_leakage_tips.html#설치",
+    "title": "11  누수감지 센서 T1",
+    "section": "11.1 설치",
+    "text": "11.1 설치\nhttps://aqara-docs.github.io/manual/water_leakage.html"
+  },
+  {
+    "objectID": "water_leakage_tips.html#사용팁",
+    "href": "water_leakage_tips.html#사용팁",
+    "title": "11  누수감지 센서 T1",
+    "section": "11.2 사용팁",
+    "text": "11.2 사용팁"
+  },
+  {
+    "objectID": "water_leakage_tips.html#troubleshoot",
+    "href": "water_leakage_tips.html#troubleshoot",
+    "title": "11  누수감지 센서 T1",
+    "section": "11.3 Troubleshoot",
+    "text": "11.3 Troubleshoot"
+  },
+  {
+    "objectID": "fp1_tips.html#설치",
+    "href": "fp1_tips.html#설치",
+    "title": "12  재실 감지 센서 FP1",
+    "section": "12.1 설치",
+    "text": "12.1 설치\nhttps://aqara-docs.github.io/manual/fp1.html"
+  },
+  {
+    "objectID": "fp1_tips.html#사용팁",
+    "href": "fp1_tips.html#사용팁",
+    "title": "12  재실 감지 센서 FP1",
+    "section": "12.2 사용팁",
+    "text": "12.2 사용팁"
+  },
+  {
+    "objectID": "fp1_tips.html#troubleshoot",
+    "href": "fp1_tips.html#troubleshoot",
+    "title": "12  재실 감지 센서 FP1",
+    "section": "12.3 Troubleshoot",
+    "text": "12.3 Troubleshoot"
+  },
+  {
+    "objectID": "fp2_tips.html#설치",
+    "href": "fp2_tips.html#설치",
+    "title": "13  재실 감지 센서 FP2",
+    "section": "13.1 설치",
+    "text": "13.1 설치\nFP2 설치 매뉴얼"
+  },
+  {
+    "objectID": "fp2_tips.html#사용팁",
+    "href": "fp2_tips.html#사용팁",
+    "title": "13  재실 감지 센서 FP2",
+    "section": "13.2 사용팁",
+    "text": "13.2 사용팁"
+  },
+  {
+    "objectID": "fp2_tips.html#troubleshoot",
+    "href": "fp2_tips.html#troubleshoot",
+    "title": "13  재실 감지 센서 FP2",
+    "section": "13.3 Troubleshoot",
+    "text": "13.3 Troubleshoot\n질문 1: 재실센서 FP2를 사용중입니다. 특정 공간에서만 고스트현상이 계속 발생합니다. 이 부분만 감지 못하게 하려면 설정을 어디에 해야 하나요?\n답변 1:\n특정 공간의 고스트 현상이 발생하는 경우 2가지 방법으로 해결 할 수 있습니다.\n\n그리드 맵상의 아이콘을 길게 눌러 삭제하는 방법입니다.\n\n\n\n\n\n\n\n[관리구역]을 통해 간섭원을 만들어 해당 구역의 감지를 아예 차단하는 방법입니다."
+  },
+  {
+    "objectID": "mini_switch_tips.html#설치",
+    "href": "mini_switch_tips.html#설치",
+    "title": "14  미니 무선 스위치 T1",
+    "section": "14.1 설치",
+    "text": "14.1 설치\nhttps://aqara-docs.github.io/manual/mini_switch.html"
+  },
+  {
+    "objectID": "mini_switch_tips.html#사용팁",
+    "href": "mini_switch_tips.html#사용팁",
+    "title": "14  미니 무선 스위치 T1",
+    "section": "14.2 사용팁",
+    "text": "14.2 사용팁"
+  },
+  {
+    "objectID": "mini_switch_tips.html#troubleshoot",
+    "href": "mini_switch_tips.html#troubleshoot",
+    "title": "14  미니 무선 스위치 T1",
+    "section": "14.3 Troubleshoot",
+    "text": "14.3 Troubleshoot"
+  },
+  {
+    "objectID": "fp2_tips.html#section",
+    "href": "fp2_tips.html#section",
+    "title": "13  재실 감지 센서 FP2",
+    "section": "13.4 ",
+    "text": "13.4"
+  },
+  {
+    "objectID": "lighting_tips.html#설치",
+    "href": "lighting_tips.html#설치",
+    "title": "15  조명 스위치(중성선 불필요)",
+    "section": "15.1 설치",
+    "text": "15.1 설치"
+  },
+  {
+    "objectID": "lighting_tips.html#사용팁",
+    "href": "lighting_tips.html#사용팁",
+    "title": "15  조명 스위치(중성선 불필요)",
+    "section": "15.2 사용팁",
+    "text": "15.2 사용팁\n질문 1: 연결해서 사용하는 조명의 종류(LED, 백열등), 개수, 와트수가 어떻게 되나요?\n답변 1:\n권장 와픝 규격보다 높은 조명을 연결할 경우 높은 도입 전류로 인해 제품 내부의 릴레이에 고장이 발생할 수 있습니다. 권장 규격은 LED등 기준 최대 200W,백열등 기준 최대 1100W 입니다. 해당 권장 규격과 정확히 맞거나 초과할 경우 높은 도입 전류로 제품 내부 릴레이가 붙어버리는 릴레이 협착증이 발생할 수 있습니다. 해당 원인으로 조명이 켜진 상태에서 아무리 스위치를 눌러도 조명이 꺼지지 않는다거나, 켜지지 않는 증상이 발생할 수 있습니다."
+  },
+  {
+    "objectID": "lighting_tips.html#troubleshoot",
+    "href": "lighting_tips.html#troubleshoot",
+    "title": "15  조명 스위치(중성선 불필요)",
+    "section": "15.3 Troubleshoot",
+    "text": "15.3 Troubleshoot\n질문 1. 조명 스위치를 눌렀을 때 표시등에 불이 들어오지 않고 조명이 켜지거나 꺼지지 않습니다.\n답변 1:\n표시등에 불이 들어오지 않는다면 제품의 고장으로 볼 수 있습니다. 거의 대부분 허용 전력보다 높은 제품을 사용하여 발생하거나 초기불량 제품일 가능성이 있습니다."
   }
 ]
