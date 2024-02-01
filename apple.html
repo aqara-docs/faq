@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FAQ - 3&nbsp; 애플 홈킷 연동</title>
+<title>FAQ - 3&nbsp; Apple HomeKit 연동</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./smartthings.html">플랫폼 연동</a></li><li class="breadcrumb-item"><a href="./apple.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">애플 홈킷 연동</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./smartthings.html">플랫폼 연동</a></li><li class="breadcrumb-item"><a href="./apple.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Apple HomeKit 연동</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -134,13 +134,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./smartthings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">스마트 씽즈 연동</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Smartthings 연동</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./apple.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">애플 홈킷 연동</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Apple HomeKit 연동</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -388,14 +388,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#apple-homekit-연동-리스트" id="toc-apple-homekit-연동-리스트" class="nav-link active" data-scroll-target="#apple-homekit-연동-리스트"><span class="header-section-number">3.1</span> Apple HomeKit 연동 리스트</a></li>
+  <li><a href="#apple-홈-허브-설정" id="toc-apple-홈-허브-설정" class="nav-link" data-scroll-target="#apple-홈-허브-설정"><span class="header-section-number">3.2</span> Apple 홈 허브 설정</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">애플 홈킷 연동</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Apple HomeKit 연동</span></h1>
 </div>
 
 
@@ -410,6 +417,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="apple-homekit-연동-리스트" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="apple-homekit-연동-리스트"><span class="header-section-number">3.1</span> Apple HomeKit 연동 리스트</h2>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -438,6 +447,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>스마트 도어벨 G4</p></li>
 <li><p>스마트 카메라 E1</p></li>
 <li><p>재실 감지 센서 FP2</p></li>
+<li><p>모션 센서 P1 (Thread/Matter 디바이스)</p></li>
+<li><p>열림 감지 센서 P2 (Thread/Matter 디바이스)</p></li>
 </ul>
 </div>
 </div>
@@ -478,8 +489,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
+<section id="apple-홈-허브-설정" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="apple-홈-허브-설정"><span class="header-section-number">3.2</span> Apple 홈 허브 설정</h2>
+<p>(1) 일반적인 홈 허브 설정 방법은 하기 사이트를 참조하세요.</p>
+<p><a href="https://support.apple.com/ko-kr/HT207057" class="uri">https://support.apple.com/ko-kr/HT207057</a></p>
+<p>(2) Thread/Matter 지원 홈 허브 설정 방법은 하기 사이트 참조하세요.</p>
+<ul>
+<li>(중요) 애플 TV를 홈 허브로 사용할 경우 반드시 이더넷 케이블 대신 Wi-Fi로 연결하셔야 합니다. 아이폰 또는 아이패드가 연결되는 있는 똑같은 Wi-Fi네트워크에 연결해 주세요. 자세한 내용은 아래 사이트 참조하시기 바랍니다.</li>
+</ul>
+<p><a href="https://support.apple.com/en-us/HT210213" class="uri">https://support.apple.com/en-us/HT210213</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -718,7 +740,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./smartthings.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">스마트 씽즈 연동</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Smartthings 연동</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
