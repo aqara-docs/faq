@@ -377,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#apple-homekit-연동-리스트" id="toc-apple-homekit-연동-리스트" class="nav-link active" data-scroll-target="#apple-homekit-연동-리스트"><span class="header-section-number">3.1</span> Apple HomeKit 연동 리스트</a></li>
   <li><a href="#apple-홈-허브-설정" id="toc-apple-홈-허브-설정" class="nav-link" data-scroll-target="#apple-홈-허브-설정"><span class="header-section-number">3.2</span> Apple 홈 허브 설정</a></li>
-  <li><a href="#troubleshoot" id="toc-troubleshoot" class="nav-link" data-scroll-target="#troubleshoot"><span class="header-section-number">3.3</span> Troubleshoot</a></li>
+  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq"><span class="header-section-number">3.3</span> FAQ</a></li>
   </ul>
 </nav>
     </div>
@@ -507,8 +507,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="troubleshoot" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="troubleshoot"><span class="header-section-number">3.3</span> Troubleshoot</h2>
+<section id="faq" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="faq"><span class="header-section-number">3.3</span> FAQ</h2>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -531,6 +531,93 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>(3) 아카라허브를 초기화 하신 후 (허브별 설치매뉴얼 참조: <a href="https://aqara-docs.github.io/manual/">https://aqara-docs.github.io/manual</a>) 아카라홈에 아카라허브를 설치하세요. 설치하는 과정에서 (2)에서 생성한 “새로운 홈”을 선택해 주세요.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 2: 애플 홈에서생성된 자동화가 동작하지 않습니다. 어떻게 해야 하는지요?</strong></p>
+<p><strong>답변 2:</strong></p>
+<p>(1) iPad, Apple TV, HomePod을 홈 허브로 사용하는 경우, iPad, Apple TV, HomePod가 라우터에 연결되어 있는지 확인하세요. iPad에서 비행 모드를 사용하지 않도록 설정하세요.</p>
+<p>(2) “홈” 앱을 열고 자동화가 비활성화되어 있는지 확인하세요.</p>
+<p>(3) 자동화에 대응하는 액세서리가 오프라인인지 확인하세요. 온라인으로 복원한 후 다시 시도하세요. 허브가 오프라인인 경우 허브를 다시 시작한 후 다시 시도하세요.</p>
+<p>(4) iOS 장치에서 “홈” 앱 “홈” 페이지를 열고 오른쪽 상단의 “내비게이션” 아이콘을 탭한 다음 “홈 설정”을 클릭하세요. “홈” 목록에서 홈을 선택한 후 “홈 허브” 아래에서 홈 허브가 “연결됨”으로 표시되는지 확인하세요.</p>
+<p>(5) iPad을 홈 허브로 사용하는 경우 iPad의 Wi-Fi 스위치를 다시 활성화하고 다시 시도해 보세요.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 3: 애플 홈에서 생성된 자동화의 딜레이가 많습니다. 왜 그런가요?</strong></p>
+<p><strong>답변 3:</strong></p>
+<p>(1) 자동화 기능은 홈 허브의 참여가 필요하므로 홈 허브와 아카라 허브가 동일한 LAN에 있고 공유기 Wi-Fi 네트워크가 안정적이고 신뢰할 수 있는지 확인하세요. 공유기에 연결된 클라이언트 수는 20개를 넘지 않는 것이 좋습니다(공유기 성능에 따라 다름). 애플, Mi, TP-LINK, NETGEER 브랜드의 라우터를 구입하는 것이 좋습니다.</p>
+<p>(2) iPad을 배터리 모드로 사용하여 홈 허브로 사용하는 경우, iPad의 화면이 어두워지면 공유기와의 통신 심박동 간격이 길어집니다. 따라서 iPad을 사용하지 않을 때에도 iPad을 충전 상태로 유지하여 iPad의 화면이 어두워져도 공유기와의 상호 통신을 유지할 수 있도록 합니다.</p>
+<p>(3) 아카라디바이스와 아카라 허브 간의 통신이 신뢰할 수 있도록 보장합니다. 아카라디바이스와 허브 간의 통신이 불안정한 경우 실행이 크게 지연될 수 있습니다.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 4: 애플홈 앱이 계속해서 “장면 및 액세서리 로드 중…”이라고 표시됩니다. 왜 그런가요?</strong></p>
+<p><strong>답변 4:</strong></p>
+<p>아이폰이 오랫동안 iCloud 데이터를 백업하지 않았거나 전혀 iCloud와 데이터를 동기화하지 않았기 때문입니다. 따라서 HomeKit을 사용하기 전에 수동으로 iCloud 데이터를 동기화해야 합니다. 해결 방법: 전화기에서 “설정” - “당신의 Apple ID 계정” - iCloud - iCloud 백업 - “수동 백업”을 클릭하면 동기화가 완료된 후 준비가 됩니다.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 5: 아카라 홈앱이 항상 “클라우드 데이터 동기화 중…”라고 표시됩니다. 왜 그런가요?</strong></p>
+<p><strong>답변 5:</strong></p>
+<p>아이폰이 오랫동안 iCloud 데이터를 백업하지 않았거나 전혀 iCloud와 데이터를 동기화하지 않았기 때문입니다. 따라서 HomeKit을 사용하기 전에 iCloud 데이터를 수동으로 동기화해야 합니다. 해결 방법: 전화기에서 설정 - “자신의 Apple ID 계정” - iCloud - iCloud 백업 - “수동 백업”을 클릭하면 동기화가 완료된 후 준비가 됩니다.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 6: 애플홈을 통해서 알림 푸시를 받고 싶습니다. 어떻게 알림 푸시를 켤 수 있는지요? 예를 들면, 문이 열리면 모바일 폰으로 문이 열렸음을 알리는 알림을 받습니다</strong></p>
+<p><strong>답변 6:</strong></p>
+<p>iOS 11 이상에서는 열림감지센서와 같은 HomeKit 액세서리를 사용할 수 있습니다. (현재 아카라 제품 중 알림 푸시를 지원하는 제품은 다음과 같습니다: 열림감지센서, 모션 센서, 진동 센서 및 누수 센서등) 액세서리가 이상을 감지하거나 특정 시간에 알림을 받도록 설정합니다. 예를 들어, 집에 열림감지 센서가 설치되어 있으면 집에 있을 때 문이 열리면 알림을 받습니다. 이를 설정하는 방법은 다음과 같습니다:</p>
+<p>(1) Apple “홈” 앱을 엽니다.</p>
+<p>(2) 액세서리를 누르고 길게 누른 다음 세부 정보를 탭합니다.</p>
+<p>(3) 상태 및 알림을 탭합니다.</p>
+<p>(4) “알림 허용”을 켜고 다음 중 하나를 선택합니다:</p>
+<ul>
+<li><p>시간: 액세서리가 알림을 보낼 시간을 설정합니다.</p></li>
+<li><p>사용자: 집에 계시거나 떠날 때 액세서리에서 알림을 받습니다. 이 옵션을 선택하려면 홈 허브를 구성하고, 홈 허브를 구성할 때 “[your name]”&gt; “iCloud”&gt; “Share My Location” 및 기기를 선택하여 집에 있는 모든 액세서리를 제어할 수 있는지 확인합니다.</p></li>
+</ul>
+<p>(5) 작업을 완료하려면 왼쪽 상단의 “뒤로”를 탭하고 “완료”를 탭합니다.집을 벗어나 있을 때 HomeKit 액세서리에서 알림을 받으려면 원격으로 HomeKit 액세서리에 액세스할 수 있는 홈 허브를 설정하십시오.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 7: 애플홈킷 설정코드는 무엇인지요?</strong></p>
+<p><strong>답변 7:</strong></p>
+<p>HomeKit 설정 코드는 8자리 숫자로 구성되어 있으며 QR 설정 코드 또는 숫자로 제품 또는 포장에 붙여져 있습니다. 각 제품에는 액세서리를 추가할 때 식별 및 페어링을 위해 고유한 HomeKit 설정 코드가 하나씩 있습니다. HomeKit 설정 코드를 보관하고 다른 사람과 공유하지 않도록 주의하십시오.</p>
 </div>
 </div>
 </div>
