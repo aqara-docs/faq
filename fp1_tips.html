@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./fp2_tips.html" rel="next">
-<link href="./water_leakage_tips.html" rel="prev">
+<link href="./vibration_tips.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -273,38 +273,38 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motion_p1_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">모션 센서 P1</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./door_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./door_p2_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">열림 감지 센서 P2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">열림 감지 센서 P2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./temperature_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./illuminance_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./water_leakage_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">누수감지 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">누수감지 센서 T1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./vibration_tips.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">진동 감지 센서 T1</span></span></a>
   </div>
 </li>
       </ul>
@@ -722,20 +722,8 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>질문 12: FP1이 가끔 오프라인으로 보입니다. 그 이유는 무엇인지요?</strong></p>
+<p><strong>질문 12: FP1의 최대 감지길이는 얼마입니까?</strong></p>
 <p><strong>답변 12:</strong></p>
-<p>FP1과 아카라허브 간의 거리가 너무 멀거나 중간에 금속 장애물이 있을 수 있습니다. 이 경우 아카라허브에 가까이 이동하고 금속 장애물을 피해 보십시오. 참고로, 더 나은 사용 경험을 위해 장치 펌웨어를 시기적절하게 업그레이드하여 장치 간의 호환성과 안정적인 통신을 보장하십시오.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>질문 13: FP1의 최대 감지길이는 얼마입니까?</strong></p>
-<p><strong>답변 13:</strong></p>
 <p>재실 센서 FP1의 감지 범위는 손전등과 유사합니다. 그러나 이 센서의 경우 수평 범위가 120도, 수직 범위가 40도이며, 반경 거리는 약 5미터입니다. 재실 센서 FP1이 커버해야 할 영역을 정하려면 손전등을 들고 해당 영역을 커버할 수 있는지 확인하십시오.</p>
 </div>
 </div>
@@ -746,8 +734,8 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>질문 14: FP1의 자동화 조건에서 “사람이 다가올때”/“사람이 멀어질때”는 언제 사용하는지요?</strong></p>
-<p><strong>답변 14:</strong></p>
+<p><strong>질문 13: FP1의 자동화 조건에서 “사람이 다가올때” 또는 “사람이 멀어질때”는 언제 사용하는지요?</strong></p>
+<p><strong>답변 13:</strong></p>
 <p>사용자가 센서에 접근할 때 조명을 밝게 하거나 멀어질 때 조명을 어둡게 할 수 있습니다. 접근 감지 거리의 세 가지 단계는 각각 1미터, 2미터, 3미터를 나타내며, 설정된 이 임계값에 따라 작동합니다. 멀리서 이 임계값에 접근하면 접근 이벤트가 발생하고, 가까이서 이 임계값을 벗어나면 멀어짐 이벤트가 발생합니다. 이렇게 설정된 자동화를 통해 사용자는 물체의 접근 또는 멀어짐에 따라 조명 등의 기기를 자동으로 제어할 수 있습니다.</p>
 </div>
 </div>
@@ -758,8 +746,8 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>질문 15: FP1의 전체 감지(무방향 감지)와 좌우감지의 차이는 무엇입니까?</strong></p>
-<p><strong>답변 15:</strong></p>
+<p><strong>질문 14: FP1의 전체 감지(무방향 감지)와 좌우감지의 차이는 무엇입니까?</strong></p>
+<p><strong>답변 14:</strong></p>
 <p>가끔 사용자는 장치를 천장이나 침대 아래와 같은 곳에 설치하여 수면 상태를 감지하는 데 사용합니다. 이런 경우에는 전체 감지 모드(무방향 감지 모드)를 선택할 수 있습니다. 그러나 측면에 설치하는 경우에도 전체 감지 모드(무방향 감지 모드)를 선택하면 문 앞으로 들어가는지 나오는지와 같은 상황을 구별할 수 없습니다. 한편, 좌우 감지 모드를 선택하면 문이 왼쪽에 있을 때 왼쪽으로 들어오거나 나갈 때를 구별할 수 있습니다. 이러한 이벤트를 사용하면 상황을 더 잘 구분할 수 있습니다.</p>
 </div>
 </div>
@@ -770,8 +758,8 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>질문 16: FP1는 어떻게 초기화(리셋) 시킬 수 있나요?</strong></p>
-<p><strong>답변 16:</strong></p>
+<p><strong>질문 15: FP1는 어떻게 초기화(리셋) 시킬 수 있나요?</strong></p>
+<p><strong>답변 15:</strong></p>
 <p>FP1 하단의 리셋버튼을 5초간 눌러 주세요.</p>
 </div>
 </div>
@@ -785,8 +773,20 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>질문 1: 재실 센서가 사람이 없는데도 오감지를 하는 경우가 많습니다. 어떻게 해결해야 하는지요?</strong></p>
+<p><strong>질문 1: FP1이 가끔 오프라인으로 보입니다. 그 이유는 무엇인지요?</strong></p>
 <p><strong>답변 1:</strong></p>
+<p>FP1과 아카라허브 간의 거리가 너무 멀거나 중간에 금속 장애물이 있을 수 있습니다. 이 경우 아카라허브에 가까이 이동하고 금속 장애물을 피해 보십시오. 참고로, 더 나은 사용 경험을 위해 장치 펌웨어를 시기적절하게 업그레이드하여 장치 간의 호환성과 안정적인 통신을 보장하십시오.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 2: 재실 센서가 사람이 없는데도 오감지를 하는 경우가 많습니다. 어떻게 해결해야 하는지요?</strong></p>
+<p><strong>답변 2:</strong></p>
 <p>공간내 움직움 또는 미세한 떨림이 발생하는 물체가 있는 경우 감지 정확도가 떨어질 수 있으니 해당 물체를 센서의 감지 범위 밖에 위치시켜 주세요. 그리고. FP1 메인화면의 우측 상단 ’…’을 클릭하시고 “기기 설정”에 들어가면 “민감도” 옵션이 있습니다. “민감도”를 중 또 하로 설정해 주세요. 그리고, 센서의 감지 범위내에 유리창이 있다면 감지 정확도가 떨어질 수 있습니다.</p>
 </div>
 </div>
@@ -1031,8 +1031,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./water_leakage_tips.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">누수감지 센서 T1</span></span>
+      <a href="./vibration_tips.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">진동 감지 센서 T1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
