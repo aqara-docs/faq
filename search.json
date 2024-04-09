@@ -4,7 +4,10 @@
     "href": "index.html",
     "title": "FAQ",
     "section": "",
-    "text": "아카라라이프 is Smart Life.\n\n\n\n\n\n\n\n매뉴얼 사이트 바로가기"
+    "text": "아카라라이프 is Smart Life.\n\n\n\n\n\n\n\n매뉴얼 사이트 바로가기",
+    "crumbs": [
+      "아카라라이프 *is* Smart Life."
+    ]
   },
   {
     "objectID": "camera_e1_tips.html#설치",
@@ -269,15 +272,23 @@
     "objectID": "smartthings.html#smartthings-연동-리스트",
     "href": "smartthings.html#smartthings-연동-리스트",
     "title": "2  Smartthings 연동",
-    "section": "2.1 Smartthings 연동 리스트",
-    "text": "2.1 Smartthings 연동 리스트\n\n\n\n\n\n\n스마트 씽즈 연동 아카라 디바이스 리스트 (총 21종)\n\n\n\n\n열림 감지 센서 T1 (문열림 센서)\n모션 센서 T1 (동작 감지 센서)\n고감도 모션 센서\n온습도 센서 T1 (온도/습도 센서)\n조도 센서 T1\n누수 감지 센서 T1\n재실 센서 FP1\n리모컨/버튼\n\n큐브 T1 프로\n\n스마트 플러그\n스위치/조광기\n\n스마트 조명 스위치 1구(중성선 불필요)\n스마트 조명 스위치 2구(중성선 불필요)\n스마트 조명 스위치 H1 1구 (중성선 필요)\n스마트 조명 스위치 H1 2구 (중성선 필요)\n스마트 조명 스위치 H1 3구 (중성선 필요)\n싱글 스위치 모듈 T1 (중성선 필요/B2B 전용 제품)\n정전류 드라이버 T1 Pro (B2B 전용 제품)\n\n스마트 자동 급식기 C1 (반려동물 급식기)\n커튼/블라인드\n\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러\n\nMatter Device\n\n모션 센서 P1\n열림 감지 센서 P2\n\n\n\n\n\n\n\n\n\n\n2024년 상반기 연동 예정 아카라 디바이스\n\n스마트 도어락 K100\n재실 센서 FP2\n무선 노브 스위치\nLED 라이트스트립 드라이버"
+    "section": "",
+    "text": "스마트 씽즈 연동 아카라 디바이스 리스트 (총 21종)\n\n\n\n\n열림 감지 센서 T1 (문열림 센서)\n모션 센서 T1 (동작 감지 센서)\n고감도 모션 센서\n온습도 센서 T1 (온도/습도 센서)\n조도 센서 T1\n누수 감지 센서 T1\n재실 센서 FP1\n리모컨/버튼\n\n큐브 T1 프로\n\n스마트 플러그\n스위치/조광기\n\n스마트 조명 스위치 1구(중성선 불필요)\n스마트 조명 스위치 2구(중성선 불필요)\n스마트 조명 스위치 H1 1구 (중성선 필요)\n스마트 조명 스위치 H1 2구 (중성선 필요)\n스마트 조명 스위치 H1 3구 (중성선 필요)\n싱글 스위치 모듈 T1 (중성선 필요/B2B 전용 제품)\n정전류 드라이버 T1 Pro (B2B 전용 제품)\n\n스마트 자동 급식기 C1 (반려동물 급식기)\n커튼/블라인드\n\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러\n\nMatter Device\n\n모션/조도 센서 P2\n열림 감지 센서 P2\n\n\n\n\n\n\n\n\n\n\n2024년 상반기 연동 예정 아카라 디바이스\n\n\n\n\n\n\n\n스마트 도어락 K100 (Coming Soon!!)\n\n\n\n\n\n재실 센서 FP2\n무선 노브 스위치\nLED 라이트스트립 드라이버",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Smartthings 연동</span>"
+    ]
   },
   {
     "objectID": "smartthings.html#smartthings-연동-영상",
     "href": "smartthings.html#smartthings-연동-영상",
     "title": "2  Smartthings 연동",
     "section": "2.2 Smartthings 연동 영상",
-    "text": "2.2 Smartthings 연동 영상\n\n2.2.1 조도 센서 T1\n\n\n\n2.2.2 온습도 센서 T1\n\n\n\n2.2.3 스마트 플러그\n\n\n\n2.2.4 조명 스위치\n\n\n\n2.2.5 커튼 컨트롤러\n\n\n\n\n\n\n\n질문: 커튼 컨트롤러 (양쪽 모드)를 다음 메뉴를 통해서 초기화 해도 초기화하는 과정에서 한쪽 레일이 계속에서 밀립니다. 해결할 수 있는 방법이 있는지요?\n답변:\n(스마트 씽즈 메뉴)\n\n\n\n\n\n마스터 캐리어와 레일 사이의 나사가 좀 풀려 있을 수 있으니 조여 주시기 바랍니다.\n\n\n\n\n\n\n\n\n\n\n먄약 위 나사를 조였는데도 계속 밀치는 현상이 지속 된다면, 레일을 재조립할 필요가 있습니다.\n즉, 커튼 모터를 빼고 손으로 한쪽 캐리어를 움직였을 때 레일이 정상적으로 따라오고, 다른쪽은 멀어지는 확인해 보십시오. 만약 정상적으로 따라오지 않는다면, 레일 안쪽 초록색 벨트가 풀려서 그럴 수 있습니다. 이 경우 레일을 재 조립하셔야 합니다.\n\n\n\n\n\n2.2.6 블라인드 컨트롤러"
+    "text": "2.2 Smartthings 연동 영상\n\n2.2.1 조도 센서 T1\n\n\n\n2.2.2 온습도 센서 T1\n\n\n\n2.2.3 스마트 플러그\n\n\n\n2.2.4 조명 스위치\n\n\n\n2.2.5 커튼 컨트롤러\n\n\n\n2.2.6 블라인드 컨트롤러",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Smartthings 연동</span>"
+    ]
   },
   {
     "objectID": "hub_m2_tips.html#설치",
@@ -472,29 +483,45 @@
     "objectID": "extra_platforms.html#lg-thinq",
     "href": "extra_platforms.html#lg-thinq",
     "title": "5  기타 플랫폼 연동",
-    "section": "5.1 LG ThinQ",
-    "text": "5.1 LG ThinQ\n\n5.1.1 연동 지원 Aqara허브\n\n\n\n\n\n\n\n스마트 리모컨 허브 M2\n\n\n\n\n\n\n5.1.2 연동 지원 Aqara 디바이스 리스트\n\n\n\n\n\n\n\n스마트 리모컨 허브 M2가 반드시 필요합니다.\n\n\n\n\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n무선 미니 스위치 T1\n조도 센서 T1\n스마트 플러그\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러"
+    "section": "",
+    "text": "5.1.1 연동 지원 Aqara허브\n\n\n\n\n\n\n\n스마트 리모컨 허브 M2\n\n\n\n\n\n\n5.1.2 연동 지원 Aqara 디바이스 리스트\n\n\n\n\n\n\n\n스마트 리모컨 허브 M2가 반드시 필요합니다.\n\n\n\n\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n무선 미니 스위치 T1\n조도 센서 T1\n스마트 플러그\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>기타 플랫폼 연동</span>"
+    ]
   },
   {
     "objectID": "extra_platforms.html#kt-기가지니",
     "href": "extra_platforms.html#kt-기가지니",
     "title": "5  기타 플랫폼 연동",
     "section": "5.2 KT 기가지니",
-    "text": "5.2 KT 기가지니\n\n5.2.1 연동 지원 Aqara허브\n\n\n\n\n\n\n\n스마트 허브 E1\n스마트 리모컨 허브 M2\n스마트 홈카메라 허브 G2H Pro (영상 확인 불가)\n스마트 홈카메라 허브 G3 (영상 확인 불가)\n\n\n\n\n\n\n5.2.2 연동 지원 Aqara 디바이스 리스트\n\n\n\n\n\n\n\nAqara허브가 반드시 필요합니다.\n\n\n\n\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n스마트 플러그\n스마트 조명 스위치 T1 1구 (중성선 불필요)\n스마트 조명 스위치 T1 2구 (중성선 불필요)\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러\n\n\n\n\n\n\n5.2.3 FAQ\n\n\n\n\n\n\n질문 1: 아카라홈과 기가지니 연동 방법 설명 부탁드립니다.\n답변 1:\n아카라 카페에 연동법에 대한 자세한 설명이 있습니다 .참고 하시기 바랍니다.\n(참고) 아카라카페 - 기가지니와 아카라홈 연동"
+    "text": "5.2 KT 기가지니\n\n5.2.1 연동 지원 Aqara허브\n\n\n\n\n\n\n\n스마트 허브 E1\n스마트 리모컨 허브 M2\n스마트 홈카메라 허브 G2H Pro (영상 확인 불가)\n스마트 홈카메라 허브 G3 (영상 확인 불가)\n\n\n\n\n\n\n5.2.2 연동 지원 Aqara 디바이스 리스트\n\n\n\n\n\n\n\nAqara허브가 반드시 필요합니다.\n\n\n\n\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n스마트 플러그\n스마트 조명 스위치 T1 1구 (중성선 불필요)\n스마트 조명 스위치 T1 2구 (중성선 불필요)\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러\n\n\n\n\n\n\n5.2.3 FAQ\n\n\n\n\n\n\n질문 1: 아카라홈과 기가지니 연동 방법 설명 부탁드립니다.\n답변 1:\n아카라 카페에 연동법에 대한 자세한 설명이 있습니다 .참고 하시기 바랍니다.\n(참고) 아카라카페 - 기가지니와 아카라홈 연동",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>기타 플랫폼 연동</span>"
+    ]
   },
   {
     "objectID": "extra_platforms.html#네이버-clova",
     "href": "extra_platforms.html#네이버-clova",
     "title": "5  기타 플랫폼 연동",
     "section": "5.3 네이버 Clova",
-    "text": "5.3 네이버 Clova\n\n5.3.1 연동 지원 Aqara허브\n\n\n\n\n\n\n\n스마트 허브 E1\n스마트 리모컨 허브 M2\n스마트 홈카메라 허브 G2H Pro (영상 확인 불가)\n스마트 홈카메라 허브 G3 (영상 확인 불가)\n\n\n\n\n\n\n5.3.2 연동 지원 Aqara 디바이스 리스트\n\n\n\n\n\n\n\nAqara허브가 반드시 필요합니다.\n\n\n\n\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n스마트 플러그\n스마트 조명 스위치 T1 1구 (중성선 불필요)\n스마트 조명 스위치 T1 2구 (중성선 불필요)\n스마트 조명 스위치 H1 1구 (중성선 필요)\n스마트 조명 스위치 H1 2구 (중성선 필요)\n스마트 조명 스위치 H1 3구 (중성선 필요)\n정전류 드라이버 T1 Pro (B2B 전용 제품)\n스마트 LED 스트립 드라이버\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러"
+    "text": "5.3 네이버 Clova\n\n5.3.1 연동 지원 Aqara허브\n\n\n\n\n\n\n\n스마트 허브 E1\n스마트 리모컨 허브 M2\n스마트 홈카메라 허브 G2H Pro (영상 확인 불가)\n스마트 홈카메라 허브 G3 (영상 확인 불가)\n\n\n\n\n\n\n5.3.2 연동 지원 Aqara 디바이스 리스트\n\n\n\n\n\n\n\nAqara허브가 반드시 필요합니다.\n\n\n\n\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n스마트 플러그\n스마트 조명 스위치 T1 1구 (중성선 불필요)\n스마트 조명 스위치 T1 2구 (중성선 불필요)\n스마트 조명 스위치 H1 1구 (중성선 필요)\n스마트 조명 스위치 H1 2구 (중성선 필요)\n스마트 조명 스위치 H1 3구 (중성선 필요)\n정전류 드라이버 T1 Pro (B2B 전용 제품)\n스마트 LED 스트립 드라이버\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>기타 플랫폼 연동</span>"
+    ]
   },
   {
     "objectID": "extra_platforms.html#aqara-스마트-허브-bridge-연결",
     "href": "extra_platforms.html#aqara-스마트-허브-bridge-연결",
     "title": "5  기타 플랫폼 연동",
     "section": "5.4 Aqara 스마트 허브 Bridge 연결",
-    "text": "5.4 Aqara 스마트 허브 Bridge 연결\n\n\n\n\n\n\n\nMatter Bridge를 통한 연결을 위해 Aqara 스마트 허브 펌웨어를 4.0 또는 그 이상, Aqara Home앱 3.0.8 그 이상으로 업데이트 해야 합니다.\n\n\n\n\n\n5.4.1 Matter Bridge 역할 가능 허브\n\n\n\n\n\n\n\n스마트 허브 E1\n스마트 리모컨 허브 M2\n스마트 홈카메라 허브 G2H Pro (영상 확인 불가)\n스마트 홈카메라 허브 G3 (영상 확인 불가)\n\n\n\n\n\n\n5.4.2 Matter 지원 디바이스 (반드시 Matter Bridge 역할 가능 허브 포함)\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n진동 감지 센서 T1\n조도 센서 T1\n고감도 모션 센서 T1\n무선 미니 스위치 T1\n무선 리모트 스위치 T1 1구\n무선 리모트 스위치 T1 2구\n스마트 큐브 T1 Pro\n무선 노브 스위치 H1\n스마트 조명 스위치 T1 1구 (중성선 불필요)\n스마트 조명 스위치 T1 2구 (중성선 불필요)\n스마트 플러그\n싱글 스위치 모듈 T1 (중성선 필요 / B2B 전용 제품)\n듀얼 릴레이 모듈 T2 (중성선 필요)\n정전류 드라이버 T1 Pro (B2B 전용 제품)\n스마트 LED 스트립 드라이버\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러"
+    "text": "5.4 Aqara 스마트 허브 Bridge 연결\n\n\n\n\n\n\n\nMatter Bridge를 통한 연결을 위해 Aqara 스마트 허브 펌웨어를 4.0 또는 그 이상, Aqara Home앱 3.0.8 그 이상으로 업데이트 해야 합니다.\n\n\n\n\n\n5.4.1 Matter Bridge 역할 가능 허브\n\n\n\n\n\n\n\n스마트 허브 E1\n스마트 리모컨 허브 M2\n스마트 홈카메라 허브 G2H Pro (영상 확인 불가)\n스마트 홈카메라 허브 G3 (영상 확인 불가)\n\n\n\n\n\n\n5.4.2 Matter 지원 디바이스 (반드시 Matter Bridge 역할 가능 허브 포함)\n\n\n\n\n\n\n\n모션 센서 T1\n열림 감지 센서 T1\n온습도 센서 T1\n진동 감지 센서 T1\n조도 센서 T1\n고감도 모션 센서 T1\n무선 미니 스위치 T1\n무선 리모트 스위치 T1 1구\n무선 리모트 스위치 T1 2구\n스마트 큐브 T1 Pro\n무선 노브 스위치 H1\n스마트 조명 스위치 T1 1구 (중성선 불필요)\n스마트 조명 스위치 T1 2구 (중성선 불필요)\n스마트 플러그\n싱글 스위치 모듈 T1 (중성선 필요 / B2B 전용 제품)\n듀얼 릴레이 모듈 T2 (중성선 필요)\n정전류 드라이버 T1 Pro (B2B 전용 제품)\n스마트 LED 스트립 드라이버\n스마트 커튼 컨트롤러\n스마트 블라인드 컨트롤러",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>기타 플랫폼 연동</span>"
+    ]
   },
   {
     "objectID": "initialization.html#스마트-허브",
@@ -614,5 +641,38 @@
     "title": "18  모션/조도 센서 P2",
     "section": "18.3 Troubleshoot",
     "text": "18.3 Troubleshoot\n\n\n\n\n\n\n질문 1: 전원을 켰을 때 LED가 몇 분동안 (10분) 지시등이 계속 깜빡거리고 있습니다. 왜 그런가요?\n답변 1:\n모션/조도 센서 P2가 매터허브에 연결되어 있지 않기 때문입니다.\n\n\n\n\n\n\n\n\n\n질문 2: 모션/조도 센서 P2가 절전모드에 들어 간 것 같습니다. 깨우는 (wake-up) 방법이 있나요?\n답변 2:\n지시등이 점멸하기 시작할 때까지 리셋 버튼을 5초간 누르고 있다가 놓으면 장치가 wake-up 및 네트워크 초기화 상태가 됩니다."
+  },
+  {
+    "objectID": "smartthings.html",
+    "href": "smartthings.html",
+    "title": "2  Smartthings 연동",
+    "section": "",
+    "text": "2.1 Smartthings 연동 리스트",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Smartthings 연동</span>"
+    ]
+  },
+  {
+    "objectID": "smartthings.html#faq",
+    "href": "smartthings.html#faq",
+    "title": "2  Smartthings 연동",
+    "section": "2.3 FAQ",
+    "text": "2.3 FAQ\n\n\n\n\n\n\n질문 1: 스마트 씽즈와 아카라 디바이스를 페어링하는 방법을 알려 주세요.\n답변 1:\n스마트 씽즈 공직 인증 아카라 디바이스의 경우 다음과 같은 순서로 연동 하실 수 있습니다.\n\n스마트 씽즈 앱 &gt;&gt; 우측 상단 ‘+’ 버튼 클릭 &gt;&gt; 기기 추가 &gt;&gt; 제휴사 기기 ‘추가’ 클릭 &gt;&gt; Aqara 선택 &gt;&gt; QR 코드 없이 추가 &gt;&gt; 원하는 아카라 디바이스 선택 &gt;&gt; 아카라 디바이스 초기화 &gt;&gt; 완료\n만약, 원하는 아카라 디바이스 선택 후 기기를 못 찾는 경우(세부 선택이 필요한 스위치/조광기 또는 커튼/블라인드 해당): (기기가 보이지 않나요?) &gt;&gt; 아카라 디바이스 선택 &gt;&gt; (QR 코드 스캔 단계 건너 뛰기) &gt;&gt; 아카라 디바이스 초기화 &gt;&gt; 완료\n\n\n\n\n\n\n\n\n\n\n질문 2: 매터 브릿지 연동을 통한 아카라 허브와 스마트 씽즈 연동하는 방법을 알려 주세요.\n답변 2:\n다음과 같은 아카라 허브가 매터 브리지 역할을 할 수 있습니다.\n\n허브 M2, 허브 E1, 카메라 허브 G2H Pro (영상 확인 불가), 카메라 허브 G3(영상 확인 불가)\n\n매터 브릿지를 통한 스마트씽즈 연동 방법은 다음과 같습니다.\n(1) 스마트 씽즈 앱 &gt;&gt; 우측 상단 ‘+’ 버튼 클릭 &gt;&gt; 기기 추가 &gt;&gt; 제휴사 기기 ‘추가’ 킄릭 &gt;&gt; Matter 선택\n(2) 아카라 홈 앱 &gt;&gt; 장치 &gt;&gt; 스마트 씽즈로 연계할 아카라 허브 선택 &gt;&gt; 우측 상단 … 클릭 &gt;&gt; Matter 선택 &gt;&gt; Matter 페어링 코드 &gt;&gt; QR 코드 생성\n(3) (1) 단계 마지막 화면에서 스마트 씽즈 앱의 카메라 스캔으로 (2)에서 생성된 QR 코드 인식 &gt;&gt; 내 아카라 허브에 연결 중 & 아카라 허브를 내 삼성 계정에 등록 중 &gt;&gt; 완료\n\n\n\n\n\n\n\n\n\n질문 3: 커튼 컨트롤러 (양쪽 모드)를 다음 메뉴를 통해서 초기화 해도 초기화하는 과정에서 한쪽 레일이 계속에서 밀립니다. 해결할 수 있는 방법이 있는지요?\n답변 3:\n(스마트 씽즈 메뉴)\n\n\n\n\n\n마스터 캐리어와 레일 사이의 나사가 좀 풀려 있을 수 있으니 조여 주시기 바랍니다.\n\n\n\n\n\n\n\n\n\n\n먄약 위 나사를 조였는데도 계속 밀치는 현상이 지속 된다면, 레일을 재조립할 필요가 있습니다.\n즉, 커튼 모터를 빼고 손으로 한쪽 캐리어를 움직였을 때 레일이 정상적으로 따라오고, 다른쪽은 멀어지는 확인해 보십시오. 만약 정상적으로 따라오지 않는다면, 레일 안쪽 초록색 벨트가 풀려서 그럴 수 있습니다. 이 경우 레일을 재 조립하셔야 합니다.",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Smartthings 연동</span>"
+    ]
+  },
+  {
+    "objectID": "extra_platforms.html",
+    "href": "extra_platforms.html",
+    "title": "5  기타 플랫폼 연동",
+    "section": "",
+    "text": "5.1 LG ThinQ",
+    "crumbs": [
+      "플랫폼 연동",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>기타 플랫폼 연동</span>"
+    ]
   }
 ]
