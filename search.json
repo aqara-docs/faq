@@ -855,5 +855,27 @@
       "활용 예제",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>시공 관련 팁</span>"
     ]
+  },
+  {
+    "objectID": "iot_basic.html",
+    "href": "iot_basic.html",
+    "title": "1  IoT 기본 교육",
+    "section": "",
+    "text": "1.1 IoT 기본 교육 동영상",
+    "crumbs": [
+      "활용 예제",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>IoT 기본 교육</span>"
+    ]
+  },
+  {
+    "objectID": "iot_basic.html#iot-기본-교육-동영상",
+    "href": "iot_basic.html#iot-기본-교육-동영상",
+    "title": "1  IoT 기본 교육",
+    "section": "",
+    "text": "1.1.1 네트워크\n\n\n\n1.1.2 디바이스 종류\n\n\n\n1.1.3 설치 방법\n\n\n\n1.1.4 페어링 방법\n\n\n\n1.1.5 유지 보수 방법\n\n\n\n1.1.6 자동화 생성 방법 및 적용 기능 시나리오",
+    "crumbs": [
+      "활용 예제",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>IoT 기본 교육</span>"
+    ]
   }
 ]
