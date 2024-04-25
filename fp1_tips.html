@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FAQ - 24&nbsp; 재실 센서 FP1</title>
+<title>FAQ - 27&nbsp; 재실 센서 FP1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -71,12 +78,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fp1_tips.html">재실 감지 센서 FAQ</a></li><li class="breadcrumb-item"><a href="./fp1_tips.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fp1_tips.html">재실 감지 센서 FAQ</a></li><li class="breadcrumb-item"><a href="./fp1_tips.html"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -86,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">FAQ</a> 
@@ -116,8 +123,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./iot_basic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IoT 기본 교육</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./smart_home.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">스마트 홈</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">아카라홈 앱 관련 팁</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./build_tips.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">시공 관련 팁</span></span></a>
   </div>
 </li>
       </ul>
@@ -134,25 +153,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./smartthings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Smartthings 연동</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">SmartThings 연동</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./apple.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Apple HomeKit 연동</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Apple HomeKit 연동</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./google.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">구글홈 연동</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">구글홈 연동</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./extra_platforms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">기타 플랫폼 연동</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">기타 플랫폼 연동</span></span></a>
   </div>
 </li>
       </ul>
@@ -169,13 +188,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hub_m2_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hub_e1_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">스마트 허브 E1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">스마트 허브 E1</span></span></a>
   </div>
 </li>
       </ul>
@@ -192,25 +211,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./g2h_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">홈카메라 허브 G2H/G2H Pro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">홈카메라 허브 G2H/G2H Pro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./g3_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">홈카메라 허브G3</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">홈카메라 허브G3</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./camera_e1_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">스마트 카메라 E1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">스마트 카메라 E1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./doorbell_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">도어벨 G4</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">도어벨 G4</span></span></a>
   </div>
 </li>
       </ul>
@@ -227,25 +246,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./k100_installation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">K100-설치</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">K100-설치</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./k100_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">K100-사용팁</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">K100-사용팁</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./k100_troubleshoot.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">K100-Troubleshoot</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">K100-Troubleshoot</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./doorlock_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">K100-통합</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">K100-통합</span></span></a>
   </div>
 </li>
       </ul>
@@ -262,49 +281,55 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./motion_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">모션 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">모션 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./high_precision_motion_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">고감도 모션 센서</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">고감도 모션 센서</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./motion_p2_tips.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">모션/조도 센서 P2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./door_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./door_p2_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">열림 감지 센서 P2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">열림 감지 센서 P2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./temperature_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./illuminance_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./water_leakage_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">누수감지 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">누수감지 센서 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./vibration_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">진동 감지 센서 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">진동 감지 센서 T1</span></span></a>
   </div>
 </li>
       </ul>
@@ -321,13 +346,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fp1_tips.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fp2_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">재실 센서 FP2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">재실 센서 FP2</span></span></a>
   </div>
 </li>
       </ul>
@@ -344,25 +369,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mini_switch_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">무선 미니 스위치 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">무선 미니 스위치 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wireless_switch_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">무선 리모트 스위치 T1 1구/2구</span></span></a>
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">무선 리모트 스위치 T1 1구/2구</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cube_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">스마트 큐브 T1 Pro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">스마트 큐브 T1 Pro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./knob_switch_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">무선 노브 스위치 H1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">무선 노브 스위치 H1</span></span></a>
   </div>
 </li>
       </ul>
@@ -379,55 +404,55 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lighting_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">조명 스위치1구/2구(중성선 불필요)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">조명 스위치1구/2구(중성선 불필요)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lighting_switch_h1_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">조명 스위치 H1(1/2/3구)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">조명 스위치 H1(1/2/3구)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dimmer_t1_pro_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">스마트 디머 컨트롤러 T1 Pro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">스마트 디머 컨트롤러 T1 Pro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./single_switch_module_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">싱글 스위치 모듈 T1 (중성선)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">싱글 스위치 모듈 T1 (중성선)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dual_relay_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">듀얼 릴레이 모듈 T2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">듀얼 릴레이 모듈 T2</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./led_driver_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">LED 스트립 드라이버</span></span></a>
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">LED 스트립 드라이버</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./led_strip_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">LED 스트립 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">LED 스트립 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sensor_light_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">스마트 무선 센서등</span></span></a>
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">스마트 무선 센서등</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./plug_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">스마트 플러그</span></span></a>
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">스마트 플러그</span></span></a>
   </div>
 </li>
       </ul>
@@ -444,13 +469,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./curtain_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">스마트 커튼 컨트롤러</span></span></a>
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">스마트 커튼 컨트롤러</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./blind_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">스마트 블라인드 컨트롤러</span></span></a>
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">스마트 블라인드 컨트롤러</span></span></a>
   </div>
 </li>
       </ul>
@@ -467,7 +492,24 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./feeder_tips.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">스마트 자동 급식기 C1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">스마트 자동 급식기 C1</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true">
+ <span class="menu-text">장치 초기화 방법</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./initialization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">장치 초기화 방법</span></span></a>
   </div>
 </li>
       </ul>
@@ -475,25 +517,25 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#설치" id="toc-설치" class="nav-link active" data-scroll-target="#설치"><span class="header-section-number">24.1</span> 설치</a></li>
-  <li><a href="#사용팁" id="toc-사용팁" class="nav-link" data-scroll-target="#사용팁"><span class="header-section-number">24.2</span> 사용팁</a></li>
-  <li><a href="#troubleshoot" id="toc-troubleshoot" class="nav-link" data-scroll-target="#troubleshoot"><span class="header-section-number">24.3</span> Troubleshoot</a></li>
+  <li><a href="#설치" id="toc-설치" class="nav-link active" data-scroll-target="#설치"><span class="header-section-number">27.1</span> 설치</a></li>
+  <li><a href="#사용팁" id="toc-사용팁" class="nav-link" data-scroll-target="#사용팁"><span class="header-section-number">27.2</span> 사용팁</a></li>
+  <li><a href="#troubleshoot" id="toc-troubleshoot" class="nav-link" data-scroll-target="#troubleshoot"><span class="header-section-number">27.3</span> Troubleshoot</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fp1_tips.html">재실 감지 센서 FAQ</a></li><li class="breadcrumb-item"><a href="./fp1_tips.html"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></h1>
+<h1 class="title"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">재실 센서 FP1</span></h1>
 </div>
 
 
@@ -506,10 +548,12 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<section id="설치" class="level2" data-number="24.1">
-<h2 data-number="24.1" class="anchored" data-anchor-id="설치"><span class="header-section-number">24.1</span> 설치</h2>
+
+<section id="설치" class="level2" data-number="27.1">
+<h2 data-number="27.1" class="anchored" data-anchor-id="설치"><span class="header-section-number">27.1</span> 설치</h2>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -535,19 +579,19 @@ ul.task-list li input[type="checkbox"] {
 <p>(공통) 동봉된 철판과 양면 스티커를 활용해 원하는 위치에 설치 진행합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-3167230179.png" class="img-fluid figure-img" width="200"></p>
+<p><img src="images/clipboard-3167230179.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
 </figure>
 </div>
 <p>(1) 천장에 설치하는 경우 : 움직임이 없거나 누워있는 상태를 감지하기에 적합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-400740329.png" class="img-fluid figure-img" width="200"></p>
+<p><img src="images/clipboard-400740329.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
 </figure>
 </div>
 <p>(2) 벽에 설치하는 경우: 움직이거나 앉아있는 상태를 감지하기에 적합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-1085183014.png" class="img-fluid figure-img" width="200"></p>
+<p><img src="images/clipboard-1085183014.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
 </figure>
 </div>
 <ul>
@@ -570,8 +614,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="사용팁" class="level2" data-number="24.2">
-<h2 data-number="24.2" class="anchored" data-anchor-id="사용팁"><span class="header-section-number">24.2</span> 사용팁</h2>
+<section id="사용팁" class="level2" data-number="27.2">
+<h2 data-number="27.2" class="anchored" data-anchor-id="사용팁"><span class="header-section-number">27.2</span> 사용팁</h2>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -764,9 +808,101 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 16: FP1을 간략히 소개해 주세요.</strong></p>
+<p><strong>답변 16:</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3988896518.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2796665436.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
+</figure>
+</div>
+<ul>
+<li><p>FP1은 60GHz 부근의 밀리미터파를 송신하고 되돌아온 반사파를 수신하여 물체의 이동은 물론 아주 미세한 움직임까지 잡아내는 센서입니다.이를 통해 기존 PIR(적외선, 열) 모션 센서가 가만히 있는 사람을 감지할 수 없던 문제가 해결되었습니다.</p></li>
+<li><p>밀리미터파는 천, 베니어판, 플라스틱 등의 얇은 파트는 통과할 수 있지만, 이 과정에서 많은 신호 감쇠가 이루어져 권장하지 않는 환경입니다.</p></li>
+<li><p>인체의 호흡과 심장박동 수준의 아주 미세한 움직임까지 잡아내는 정밀함을 가졌지만</p></li>
+<li><p>이에 대한 반대급부로 선풍기, 바람에 움직이는 커튼, 식물, 조명 등 미세한 움직임을 띄는 제품들이 오감지의 원인이 되기도 합니다. 때문에 제품을 최적의 상태로 사용하려면 제품에 대한 이해, 적절한 환경 구성, 앱에서 제공하는 제품 설정 등이 병행되어야 합니다.</p></li>
+<li><p>감지 범위를 28개의 구역(4*7, 각 구역은 1m*1m)으로 쪼개 물체의 위치를 확인할 수 있습니다.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 17. FP1이 어떻게 재실판단를 하는지 간단하게 매카니즘을 설명해 주시겠습니까?</strong></p>
+<p><strong>답변 17:</strong></p>
+<p>사람에 대한 재실판단 매커니즘은 다음과 같습니다 (기본 사람 없음 상태에서 시작) :</p>
+<ul>
+<li><p>오감지를 배제하기 위해 처음 사람 있음으로 판단하기 전까지는 미세한 진동과 움직임은 처리하지 않습니다.</p></li>
+<li><p>사람으로 인식할만한 큰 물체(판단에 약 0.4초 소요)가 들어오고 이에 대한 감지가 지속되면 사람 있음(판단에 약 6초 소요)으로 인식하게 됩니다.</p></li>
+<li><p>이때부터는 재실에 대한 판단을 지속해야 하므로 아주 미세한 움직임까지 처리하기 시작합니다. 즉, 시점부터 바람에 흔들리는 식물, 커튼, 에어컨, 선풍기, 컴퓨터, 기타 진동하는 물체들이 사람으로 오인식 될 수 있으며, 이를 고려해 제품 설치 위치를 결정하거나 앱에서 제공하는 감지 배제 설정을 진행해야 합니다.</p></li>
+<li><p>모든 움직임이 사라지면 다시 사람 없음(판단에 약 10~30초 소요) 상태로 감지 상태가 전환됩니다.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1428431425.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ul>
+<li><p><strong>FP1은 1인에 대한 추적만을 지원합니다.</strong></p>
+<ul>
+<li><p>인체에서 가장 움직임이 큰 부위가 있는 지점을 좌표에 나타냅니다. (1번)</p></li>
+<li><p>인체 -&gt; 물체 -&gt; 레이더 순으로 돌아온 반사파에 대해서는 여러 알고리즘을 통해 거짓 타겟으로 분류해 고스트 현상을 방지합니다. (2번)</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3498965586.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ul>
+<li><p>센서에서 송신한 밀리미터파가 작동중인 선풍기에 도달하면, 팬의 회전에 의해 여러 방향으로 반사되게 됩니다. 이는 오감지의 원인이 되며 선풍기의 위치를 간섭원으로 설정하여 보완할 수 있습니다. (1, 2, 3번)</p></li>
+<li><p>커튼은 밀리미터파의 일부는 투과하고 일부는 반사하며 바람 등의 작은 에너지에도 큰 움직임까지 가지기 때문에 상당한 오감지를 유발할 수 있는 물체입니다. 커튼과 그 너머 범위를 모두 간섭원 설정하여 보완할 수 있습니다. (4번)</p></li>
+<li><p><strong><em>FP1의 경우 기술적인 문제로 한 칸을 간섭원 설정하면 해당 행이 모두 간섭원 설정됩니다.</em></strong></p></li>
+<li><p><strong><em>출입구, 간섭원, 모서리(벽) 설정은 각 항목에 단 하나만 적용됩니다. 중복 생성 시 가장 마지막에 설정된 내용만 적용됩니다.</em></strong></p></li>
+<li><p>위와 같은 이유로 커튼의 위치를 고려하지 않은 채 FP1의 설치 위치를 잡으면 너무 많은 범위를 간섭원 설정해야 하기 때문에, 제품의 사용성에 문제가 발생합니다. (5, 6번)</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>질문 18: FP1을 빠르고 간편하게 설치하고 설정하는 방법을 알려 주세요.</strong></p>
+<p><strong>답변 18:</strong></p>
+<ul>
+<li><p>움직임이 있는 모든 물체는 가능한 레이더 센서 반대편 혹은 감지 범위에 들어오지 않게 합니다.</p></li>
+<li><p>센서의 감지 민감도를 낮음(약)에서 사용하고 적절히 감지가 이뤄지지 않는다면 한 단계씩 변경합니다.</p></li>
+<li><p>오감지가 일어나는 위치를 간섭원 설정합니다.</p></li>
+<li><p>별다른 오감지가 발생하지 않는다면, 자동화 생성 시 누군가 들어옴(Enter) 조건을 사용해 빠르게 자동화를 트리거 시킬 수 있습니다. (사람 있음으로 설정 시 트리거에 6초 소요)</p></li>
+</ul>
+<p><strong>민감도 높음 (AI 환경 학습)</strong></p>
+<ul>
+<li><p>일반적인 환경에서는 감지 민감도를 낮음 또는 중간으로 설정해도 충분합니다. 수면 시 감지에 문제가 있거나 기타 정적인 상황을 감지하기 어려운 경우에만 높음으로 설정해 주세요.</p></li>
+<li><p>감지 민감도 설정을 높음(강)으로 설정한 후 사람 없음 상태로 설정을 누르면 약 1분간 공간을 학습하며, 이후에도 사람 없음으로 판단할 때마다 정보를 업데이트 합니다. (감지 범위 내에 사람이 있는 상태에서 해당 기능을 실행하면 오동작의 원인이 됩니다.)</p></li>
+</ul>
+</div>
+</div>
+</div>
 </section>
-<section id="troubleshoot" class="level2" data-number="24.3">
-<h2 data-number="24.3" class="anchored" data-anchor-id="troubleshoot"><span class="header-section-number">24.3</span> Troubleshoot</h2>
+<section id="troubleshoot" class="level2" data-number="27.3">
+<h2 data-number="27.3" class="anchored" data-anchor-id="troubleshoot"><span class="header-section-number">27.3</span> Troubleshoot</h2>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -875,10 +1011,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -888,8 +1041,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -901,7 +1063,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -945,6 +1230,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -970,6 +1256,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1031,17 +1343,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./vibration_tips.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">진동 감지 센서 T1</span></span>
+      <a href="./vibration_tips.html" class="pagination-link" aria-label="진동 감지 센서 T1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">진동 감지 센서 T1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./fp2_tips.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">재실 센서 FP2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./fp2_tips.html" class="pagination-link" aria-label="재실 센서 FP2">
+        <span class="nav-page-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">재실 센서 FP2</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
